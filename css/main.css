@@ -1,4 +1,51 @@
-  .container { 
+/* Header Container */
+.site-header {
+  background-color: #0d1321; /* Matches your current dark blue header */
+  padding: 2.5rem 1rem 1.5rem 1rem;
+  text-align: center; /* Centering business name and tagline */
+  border-bottom: 3px solid #ff9900; /* Yellow accent line */
+}
+
+/* Centered Title & Tagline */
+.brand-title {
+  color: #ffffff;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem 0;
+}
+
+.brand-tagline {
+  color: #cccccc;
+  font-size: 1.1rem;
+  margin: 0 0 1.5rem 0;
+}
+
+/* Styled Navigation Bar */
+.main-nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding-top: 1rem;
+}
+
+/* Fixing blue unstyled links */
+.main-nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: color 0.2s ease-in-out;
+}
+
+.main-nav a:hover,
+.main-nav a:focus {
+  color: #ff9900; /* Vibrant hover highlight */
+  text-decoration: underline;
+}
+
+/*----------------------------------------------------------------*/
+
+    .container { 
       max-width: 1200px;
       margin: auto; 
       padding: 2rem; 
